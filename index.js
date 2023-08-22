@@ -4,7 +4,10 @@ const { buildSchema } = require("graphql");
 const { books } = require("./resources/data.json");
 const schema = buildSchema(`
   type Query {
-    message: String
+    findAll: [Book]
+  }, 
+  type Book{
+    id: Integer
   }
 `);
 
