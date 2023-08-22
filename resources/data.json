@@ -1,0 +1,169 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "Cien años de soledad",
+            "Author": {
+                "name": "Gabriel García Márquez",
+                "nationality": "Colombiam"
+            },
+            "genre": "Magic realism",
+            "pageCount": 432,
+            "publishedYear": 1967
+        },
+        {
+            "id": 2,
+            "title": "1984",
+            "Author": {
+                "name": "George Orwell",
+                "nationality": "British"
+            },
+            "genre": "Dystopian",
+            "pageCount": 328,
+            "publishedYear": 1949
+        },
+        {
+            "id": 3,
+            "title": "El Gran Gatsby",
+            "Author": {
+                "name": "F. Scott Fitzgerald",
+                "nationality": "American"
+            },
+            "genre": "Fiction",
+            "pageCount": 180,
+            "publishedYear": 1925
+        },
+        {
+            "id": 4,
+            "title": "Orgullo y prejuicio",
+            "Author": {
+                "name": "Jane Austen",
+                "nationality": "British"
+            },
+            "genre": "Romance",
+            "pageCount": 432,
+            "publishedYear": 1813
+        },
+        {
+            "id": 5,
+            "title": "Matar un ruiseñor",
+            "Author": {
+                "name": "Harper Lee",
+                "nationality": "American"
+            },
+            "genre": "Novel",
+            "pageCount": 281,
+            "publishedYear": 1960
+        },
+        {
+            "id": 6,
+            "title": "Don Quijote de la Mancha",
+            "author": {
+                "name": "Miguel de Cervantes",
+                "nationality": "Spanish"
+            },
+            "genre": "Novel",
+            "pageCount": 863,
+            "publishedYear": 1605
+        },
+        {
+            "id": 7,
+            "title": "Moby-Dick",
+            "author": {
+                "name": "Herman Melville",
+                "nationality": "American"
+            },
+            "genre": "Adventure",
+            "pageCount": 585,
+            "publishedYear": 1851
+        },
+        {
+            "id": 8,
+            "title": "To Kill a Mockingbird",
+            "author": {
+                "name": "Harper Lee",
+                "nationality": "American"
+            },
+            "genre": "Novel",
+            "pageCount": 324,
+            "publishedYear": 1960
+        },
+        {
+            "id": 9,
+            "title": "Pride and Prejudice",
+            "author": {
+                "name": "Jane Austen",
+                "nationality": "British"
+            },
+            "genre": "Romance",
+            "pageCount": 279,
+            "publishedYear": 1813
+        },
+        {
+            "id": 10,
+            "title": "The Great Gatsby",
+            "author": {
+                "name": "F. Scott Fitzgerald",
+                "nationality": "American"
+            },
+            "genre": "Fiction",
+            "pageCount": 200,
+            "publishedYear": 1925
+        },
+        {
+            "id": 11,
+            "title": "Brave New World",
+            "author": {
+                "name": "Aldous Huxley",
+                "nationality": "British"
+            },
+            "genre": "Dystopian",
+            "pageCount": 311,
+            "publishedYear": 1932
+        },
+        {
+            "id": 12,
+            "title": "The Catcher in the Rye",
+            "author": {
+                "name": "J.D. Salinger",
+                "nationality": "American"
+            },
+            "genre": "Coming-of-Age",
+            "pageCount": 277,
+            "publishedYear": 1951
+        },
+        {
+            "id": 13,
+            "title": "One Hundred Years of Solitude",
+            "author": {
+                "name": "Gabriel García Márquez",
+                "nationality": "Colombian"
+            },
+            "genre": "Magic realism",
+            "pageCount": 417,
+            "publishedYear": 1967
+        },
+        {
+            "id": 14,
+            "title": "Anna Karenina",
+            "author": {
+                "name": "Leo Tolstoy",
+                "nationality": "Russian"
+            },
+            "genre": "Novel",
+            "pageCount": 864,
+            "publishedYear": 1877
+        },
+        {
+            "id": 15,
+            "title": "Lord of the Rings",
+            "author": {
+                "name": "J.R.R. Tolkien",
+                "nationality": "British"
+            },
+            "genre": "Fantasy",
+            "pageCount": 1178,
+            "publishedYear": 1954
+        }
+    ]
+}
