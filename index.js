@@ -5,14 +5,35 @@ const { books } = require("./resources/data.json");
 const schema = buildSchema(`
   type Query {
     findAll: [Book]
-  }, 
-  type Book{
-    id: Integer
+    findById(id: ID!): Book
+    findByGenre(genre:String):[Book]
   }
+  type Author {
+    name: String
+    nationality: String
+  }
+  type Book {
+    id: Int
+    title: String
+    author: Author
+    genre: String
+    pageCount: Int
+    publishedYear: Int
+  }
+  
 `);
 
+let getById = (args) => books.find((book) => book.id == args.id);
+let findByGenre = (args) => {
+  if (args.genre) {
+    return books.filter((book) => book.genre == args.genre);
+  }
+  return books;
+};
 const root = {
-  message: () => "Hello, GraphQL!",
+  findAll: () => books,
+  findById: getById,
+  findByGenre: findByGenre,
 };
 
 const app = express();

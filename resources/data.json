@@ -3,7 +3,7 @@
         {
             "id": 1,
             "title": "Cien años de soledad",
-            "Author": {
+            "author": {
                 "name": "Gabriel García Márquez",
                 "nationality": "Colombiam"
             },
@@ -14,7 +14,7 @@
         {
             "id": 2,
             "title": "1984",
-            "Author": {
+            "author": {
                 "name": "George Orwell",
                 "nationality": "British"
             },
@@ -25,7 +25,7 @@
         {
             "id": 3,
             "title": "El Gran Gatsby",
-            "Author": {
+            "author": {
                 "name": "F. Scott Fitzgerald",
                 "nationality": "American"
             },
@@ -36,7 +36,7 @@
         {
             "id": 4,
             "title": "Orgullo y prejuicio",
-            "Author": {
+            "author": {
                 "name": "Jane Austen",
                 "nationality": "British"
             },
@@ -47,7 +47,7 @@
         {
             "id": 5,
             "title": "Matar un ruiseñor",
-            "Author": {
+            "author": {
                 "name": "Harper Lee",
                 "nationality": "American"
             },
