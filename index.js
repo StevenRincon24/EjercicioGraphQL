@@ -7,7 +7,8 @@ const schema = buildSchema(`
     findAll: [Book]
     findById(id: ID!): Book
     findByGenre(genre:String):[Book]
-  }
+    findBooksByYearRange(startYear: Int, endYear: Int): [Book]
+}
   type Author {
     name: String
     nationality: String
@@ -30,10 +31,23 @@ let findByGenre = (args) => {
   }
   return books;
 };
+
+let findBooksByYearRange = (args) => {
+  if (args.startYear && args.endYear) {
+    return books.filter((book) => {
+      return (
+        book.publishedYear >= args.startYear &&
+        book.publishedYear <= args.endYear
+      );
+    });
+  }
+  return books;
+};
 const root = {
   findAll: () => books,
   findById: getById,
   findByGenre: findByGenre,
+  findBooksByYearRange: findBooksByYearRange,
 };
 
 const app = express();
